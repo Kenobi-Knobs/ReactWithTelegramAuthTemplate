@@ -1,0 +1,19 @@
+{
+	"name": "app_name",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node server/index.js",
+		"dev": "cd client && npm run build && cd .. && npm start"
+	},
+	"keywords": [],
+	"author": "Kenobi_Knobs",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.17.2",
+		"jsonwebtoken": "^8.5.1",
+		"mongodb": "^4.3.1",
+		"mongoose": "^6.1.7"
+	}
+}

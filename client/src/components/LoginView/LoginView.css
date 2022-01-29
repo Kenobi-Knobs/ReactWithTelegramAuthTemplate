@@ -1,0 +1,26 @@
+﻿.page {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 30vh;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.logo {
+	font-family: 'Rubik', sans-serif;
+	margin-bottom: 15px;
+	font-size: 45px;
+}
+
+.error {
+	font-family: 'Rubik', sans-serif;
+	font-size: small;
+	padding: 1px 6px;
+	margin-bottom: 10px;
+	border-radius: 9px;
+	background-color: #fff4a3;
+}
